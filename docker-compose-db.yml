@@ -1,0 +1,11 @@
+elasticsearch:
+  image: elasticsearch
+  container_name: myfeed_es
+  ports:
+   - "9200:9200"
+   - "9300:9300"
+mongo:
+  image: mongo
+  container_name: myfeed_mongo
+  ports:
+   - "27017:27017"
